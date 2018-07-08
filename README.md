@@ -8,4 +8,5 @@ Used Technolgoies :
 - Java JAX-RX (Jersey) for build RestFul API
  - Apache Jena for query Ontologies (Ontology Developed from Protege)
   - Hibernate ORM to connect with MySQL
-  
+
+Link to the Reseach Paper of this application ( https://goo.gl/J9BmrK )
