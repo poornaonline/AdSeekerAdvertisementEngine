@@ -1,0 +1,506 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#technology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#amd">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#vga_card"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#fan">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#pc">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#technology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#power_supply_unit">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#psu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#yamaha">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#bike"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#case">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#casing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#triumph">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#bike"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#automobile">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">topcategory</isTypeOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#processor">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mouse">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#sony">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#honda">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#bike"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#motorola">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#nokia">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#cpu">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#processor"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#apple">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#dvd_rom">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#xperia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#sony"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#keyboard">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#iphone">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">product</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#apple"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#amd_processor">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#cpu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#cd_rom">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#ford">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#toyota">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#suzuki">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#bike"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#jaguar">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#disk_drive">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#hard_disk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#ram">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#display_card">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#vga_card"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#graphic_card"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#gpu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#flash_drive">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#display">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#monitor"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#psu">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#blue_ray_rom">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#dvd_rom"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#cd_rom"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#technology">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">topcategory</isTypeOf>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#automobile"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#network_card">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#xiaomi">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#ssd">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#google_nexus">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#note">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#samsung"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mac">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#technology"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#pc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#galaxy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#samsung"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#isTypeOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#bajaj">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#bike"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#asus_sound">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#audio_card"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#sata_ssd">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#ssd"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#nvidia">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#vga_card"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#pen_drive">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#thumb_drive"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#intel_processor">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#cpu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#ducati">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#bike"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#lg">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mercedes">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mercedes_benz"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#flash_disk">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#ssd"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#flash_drive"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#vga_card">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#graphic_card">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#range_rover">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#macbook_pro">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#pc"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#ipad">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">product</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#apple"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mitsubishi">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#nexus">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#google_nexus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#one_plus">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#sameRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#ferrari">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#random_access_memory">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#bike">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#automobile"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#motor_bike"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#ups">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#gpu">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#hard_disk">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#lamborghini">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#htc">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#tesla">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#technology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#monitor">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#casing">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mercedes_benz">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#pci_e_ssd">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#ssd"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#nissan">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#hero">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#bike"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#porsche">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#creative">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#audio_card"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#bmw">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#tvs">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#bike"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#samsung">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#cooler">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#fan"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mazda">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#benz">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#car"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mercedes_benz"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#blackberry">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#audio_card">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#sound_card"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#motor_bike">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#automobile"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#technology"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#sound_card">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#motherboard">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#main_board">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#motherboard"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#memory">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#random_access_memory"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#ram"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#thumb_drive">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">producttype</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#computer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#huawei">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#microsoft">
+    <isTypeOf rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brand</isTypeOf>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#mobile_phone"/>
+    <owl:equivalentClass rdf:resource="http://www.semanticweb.org/poorna/ontologies/2016/4/untitled-ontology-2#nokia"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
